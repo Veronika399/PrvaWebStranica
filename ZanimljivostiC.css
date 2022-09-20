@@ -1,0 +1,198 @@
+header{
+  text-align: center;
+}
+
+body{
+/*background-color: #4682B4;*/
+  background-image: url('Slike/Pozadina.png');
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-size: cover;
+}
+
+
+ul {
+  width: 98.5%;
+  padding: 10px;
+  background-color: #000066;
+  overflow: hidden;
+  height: 30px;
+  border-radius: 20px;
+
+}
+
+li{
+  float:left;
+  list-style-type: none;
+  text-align: center;
+  margin-right: 10%;
+ 
+}
+
+li:nth-child(1){
+  margin-left: 20%;
+}
+
+li a, .dropbtn {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 10px 10px;
+  text-decoration: none;
+  border-radius: 10px;
+  font-size: 1.5em;
+  text-align: center;
+
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+  background-color: #6495ED;
+  color: darkblue;
+}
+
+li.dropdown {
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #000066;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: white;
+  padding: 5px 10px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {background-color: #6495ED; color: darkblue;}
+
+.dropdown:hover .dropdown-content {
+  display: inline-block;
+}
+
+.Naslov{
+  font-size: 25px;
+  text-align: center;
+  background-color: #004080;
+  width: 40%;
+  margin-left: 30%;
+  margin-top: 2%;
+  border-radius: 10px;
+  color: white;
+  font-style: italic;
+}
+
+section {
+  display: grid;                  
+  grid-template-columns: repeat(3,1f); 
+  grid-template-areas:        
+  "prvi drugi treci"
+  "cetvrti peti sesti";
+  padding:3%;
+  width: 80%;
+  height: 40%;
+  margin-left: 7%;
+}
+
+article{
+  border-radius: 10px;
+  text-align: center;
+  position: relative;
+  margin: 3%;
+}
+
+.art1{
+  font-size: 20px;
+  background-color: #004080;
+  color: white;
+  grid-area: prvi;
+}
+
+.art2{
+  font-size: 20px;
+  background-color: #004080;
+  color: white;
+  grid-area: drugi;
+}
+.art3{
+  font-size: 20px;
+  background-color: #004080;
+  color: white;
+  grid-area: treci;
+}
+.art4{
+  font-size: 20px;
+  background-color: #004080;
+  color: white;
+  grid-area: cetvrti;
+}
+.art5{
+  font-size: 20px;
+  background-color: #004080;
+  color: white;
+  grid-area: peti;
+}
+.art6{
+  font-size: 20px;
+  background-color: #004080;
+  color: white;
+  grid-area: sesti;
+}
+
+table{
+  background-color: #004080;
+  border: 2px solid black;
+  border-collapse: collapse;
+  position: relative;
+  margin-left: 13%;
+  margin-bottom: 5%;
+}
+
+#tabNaslov{
+  font-size: 18px;
+  color:#04122c;
+  background-color: white;
+  border: 2px solid black;
+}
+
+table a:hover{
+  color: yellow;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+table a{
+  color:white;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+table a:visited{
+  color:rgb(81, 236, 81) ;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+th,td{
+  border: 2px solid black;
+  padding: 10px;
+  text-align: center;
+  font-size: 16px;
+  color: white;
+}
+
+.s1{
+  margin-left: 11%;
+  margin-bottom: 2%;
+}
+
+.s2{
+  margin-left: 5%;
+}

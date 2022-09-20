@@ -1,0 +1,180 @@
+header{
+  text-align: center;
+}
+
+body{
+/*background-color: #4682B4;*/
+  background-image: url('Slike/Pozadina.png');
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-size: cover;
+}
+
+
+ul {
+  width: 98.5%;
+  padding: 10px;
+  background-color: #000066;
+  overflow: hidden;
+  height: 30px;
+  border-radius: 20px;
+
+}
+
+li{
+  float:left;
+  list-style-type: none;
+  text-align: center;
+  margin-right: 10%;
+ 
+}
+
+li:nth-child(1){
+  margin-left: 20%;
+}
+
+li a, .dropbtn {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 10px 10px;
+  text-decoration: none;
+  border-radius: 10px;
+  font-size: 1.5em;
+  text-align: center;
+
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+  background-color: #6495ED;
+  color: darkblue;
+}
+
+li.dropdown {
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #000066;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: white;
+  padding: 5px 10px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {background-color: #6495ED; color: darkblue;}
+
+.dropdown:hover .dropdown-content {
+  display: inline-block;
+}
+
+
+  main{
+    margin-top: 20px;
+    margin-left: 10px;
+    border-radius: 10px; 
+    display: grid;                  
+    grid-template-columns: 3f 1f; 
+    grid-template-areas:        
+    "prviprvi prvidrugi prvidrugi"
+    "drugiprvi drugidrugi drugidrugi"
+    "treciprvi trecidrugi trecidrugi"
+    "cetvrtiprvi cetvrtidrugi cetvrtidrugi"
+    ;
+    grid-auto-rows: minmax(100px,auto); 
+}
+ 
+
+.JohnnyS{
+    border-radius: 10px;
+    grid-area: prvidrugi;
+    background-color: #004080;
+    padding: 10px;
+    font-size: 20px;
+    color: white;
+    height: 150px;
+    margin-top: 15%;
+    margin-right: 10%;
+    text-align: center;
+}
+
+.JohnnyA{
+  grid-area: prviprvi;
+  text-align: right;
+  margin-right: 20px;
+  margin-top: 40px;
+  
+}
+
+.RushS{
+  border-radius: 10px;
+  grid-area: drugiprvi;
+  background-color: #004080;
+  padding: 10px;
+  font-size: 20px;
+  color: white;
+  height: 60px;
+  margin-top: 150px;
+  margin-right: 10px;
+  margin-left: 10%;
+}
+
+.RushA{
+grid-area: drugidrugi;
+margin-top: 40px;
+text-align: left;
+
+}
+
+
+.BloomS{
+  border-radius: 10px;
+  grid-area: trecidrugi;
+  background-color: #004080;
+  padding: 10px;
+  font-size: 20px;
+  color: white;
+  height: 130px;
+  background-position: left;
+  margin-top:15%;
+  margin-left: 5%;
+  margin-right: 10%;
+}
+
+.BloomA{
+grid-area: treciprvi;
+margin-top: 20px;
+margin-left: 10%;
+
+}
+
+.KeiraaS{
+  border-radius: 10px;
+  grid-area: cetvrtiprvi;
+  background-color: #004080;
+  padding: 10px;
+  font-size: 20px;
+  color: white;
+  height: 150px;
+  margin-top: 150px;
+  margin-right: 10px;
+  margin-left: 10%;
+  width: 90%;
+}
+
+.KeiraA{
+grid-area: cetvrtidrugi;
+margin-top: 5%;
+margin-right: 10%;
+text-align: center;
+
+}
